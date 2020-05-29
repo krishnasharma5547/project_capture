@@ -1,0 +1,186 @@
+.navbar{
+    background-color: #c5d8ea;
+}
+.link-text{
+    color:#1caa98 !important;
+    font-weight: 700;
+}
+
+.link-text:hover{
+    border-bottom: 2px solid orange;
+    font-weight: 1000;
+    color:#1caa98 !important;
+}
+#green-font{
+    color:orange;
+    font-weight: 400;
+}
+.jumbotron {
+    background: no-repeat url(../image/banner2.jpg);
+    height:550px;
+    color: white;
+    /* overflow: auto; */
+}
+.jumbotron p{
+    font-weight: bold;
+}
+
+.jumbo-button{
+    float: right;
+    margin-right: 50px;
+}
+
+#middle h2{
+    text-align: center;
+}
+#middle p{
+    padding-right: 50px;
+    text-align: justify;
+    margin-left: 50px;
+}
+section #middel-row{
+    margin:40px;
+    margin-top: 50px;
+}
+
+
+.mid{
+    border:2px solid gray;
+    width:100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+   
+}
+
+.middle-button{
+    display:flex;
+    justify-items: center;
+    font-size: 20px;
+    align-items: right;
+    position:relative;
+    left:150px;
+    right:100px;
+    margin-bottom:50px;
+}
+
+
+.feature{
+    background: #1caa98;
+    margin-top:30px;
+    height:500px;
+    align-items: center;
+    overflow: hidden;
+}
+.feature li{
+    list-style: none;
+    line-height: 20px;
+    font-size: 19px;
+  
+}
+.feature #feature-row{
+    padding-top:60px;
+    padding-left:50px;
+}
+/* .midd-text{
+    display: flex;
+    float:left;
+} */
+
+#feature-img{
+    display:flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+}
+footer{
+    
+    background:#333;
+    color:#fff;
+    padding: 25px 0px 10px 0px;
+    text-align: left;
+}
+#footer-nav ul li a{
+    text-decoration: none;
+    color: white !important;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+#footer-nav li{
+    list-style: none;
+    /* float:left; */
+    padding-right:30px;
+    float: left;
+}
+#footer-right p{
+    clear: both;
+    float:right;
+
+}
+
+@media (max-width: 575.98px) { 
+    #footer-nav li{
+        text-align: center;
+        padding-right: 15px;
+    }
+
+    #footer-right p{
+        float: none;
+        text-align: center;
+    }
+    #feature-img{
+        display: none;
+    }
+
+    .jumbotron{
+        background: url(../image/5.jpg) no-repeat;
+        width: 100%;
+        color:white !important;
+        overflow: hidden;
+    }
+    .heading h1{
+        font-size: 30px;
+    }
+ }
+
+@media (min-width: 768px){
+    feature{
+        background: #1caa98;
+        margin-top:30px;
+        height:500px;
+        align-items: center;
+        overflow: hidden;
+        color:black!important;                          
+    }
+    .feature li{
+        list-style: none;
+        line-height: 20px;
+        font-size: 19px;
+      
+    }
+}
+
+.active{    
+    border: 2px solid black;   
+    padding:5px; 
+    
+}
+
+/* coading for AboutUs */
+.heading{
+    background-color: #1caa98;
+    width: 100%;
+    height: 100px;
+    padding:   30px;
+}
+
+.container-fluid{
+    padding: 0 !important;
+    margin: 0px !important;
+}
+
+#middel-row.col-md-9 p{
+    font-size:35px !important;
+}
