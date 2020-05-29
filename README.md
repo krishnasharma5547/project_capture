@@ -3,6 +3,7 @@
 This is project of front end for a photo capture website
 
 include-->>
+
  home
  
  join
