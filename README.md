@@ -2,7 +2,7 @@
 
 This is project of front end for a photo capture website
 
-include-->>
+what it includes -->>
 
  home
  
